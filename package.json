@@ -1,0 +1,17 @@
+{
+  "name": "qa-automation-foundation",
+  "version": "1.0.0",
+  "description": "Playwright + TS Automation Framework",
+  "scripts": {
+    "test:e2e": "playwright test tests/e2e",
+    "test:api": "playwright test tests/api",
+    "test:all": "playwright test",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.0",
+    "@types/node": "^20.12.7",
+    "ajv": "^8.12.0",
+    "dotenv": "^16.4.5"
+  }
+}

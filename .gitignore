@@ -1,0 +1,12 @@
+node_modules/
+playwright-report/
+test-results/
+config/.env.dev
+config/.env.staging
+config/.env.prod
+!config/.env.example
+
+# Internal notes — not for repo
+docs/pom-refactoring-report.md
+docs/pom-architecture.md
+docs/pom-checklist.md
